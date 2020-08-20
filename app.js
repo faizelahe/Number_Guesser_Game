@@ -22,7 +22,6 @@ guessBtn.addEventListener('click', function () {
         message.style.color = 'green';
         guessBtn.value = 'Play Again';
         guessBtn.id = 'play-again';
-        input.disabled = true;
         document.querySelector('#play-again').addEventListener('click', function () {
             location.reload()
         });
